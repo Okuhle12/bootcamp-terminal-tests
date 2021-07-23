@@ -1,0 +1,28 @@
+module.exports = function mostProfitableDepartment(salesData) {
+    var profitableMap = {};
+    for (var i = 0; i < salesData.length; i++) {
+        var shopDepartment = salesData[i].department;
+      
+        if (profitableMap[shopDepartment] === undefined) {
+            profitableMap[shopDepartment] = 0;
+        } else {
+            profitableMap[shopDepartment] += salesData[i].sales;
+        }
+    }
+    
+  
+    var departments = '';
+    var total = 0;
+    for (var dep in profitableMap) {
+       
+        if (profitableMap[dep] > total) {
+            departments = dep;
+            total = profitableMap[dep];
+        }
+    }
+    console.log(departments);
+  console.log(total);
+  return departments;
+  return total;
+}
+  
