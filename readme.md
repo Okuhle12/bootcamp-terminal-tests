@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/Okuhle12/registration_numbers.svg?branch=master)](https://travis-ci.org/Okuhle12/registration_numbers)
+[![Build Status](https://travis-ci.org/Okuhle12/bootcamp-terminal-tests..svg?branch=master)](https://travis-ci.org/Okuhle12/bootcamp-terminal-tests.)
